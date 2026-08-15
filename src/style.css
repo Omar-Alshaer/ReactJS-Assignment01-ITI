@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+.courses {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+}
+
+.card span {
+  font-weight: bold;
+}

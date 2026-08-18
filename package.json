@@ -4,9 +4,11 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
+    "bootstrap": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "styled-components": "latest",
+    "vite": "latest"
   },
   "devDependencies": {}
 }

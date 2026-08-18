@@ -3,10 +3,12 @@
     "dev": "vite"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "latest",
     "@vitejs/plugin-react": "latest",
     "bootstrap": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-redux": "latest",
     "react-router-dom": "latest",
     "styled-components": "latest",
     "vite": "latest"

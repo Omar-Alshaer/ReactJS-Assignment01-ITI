@@ -9,7 +9,7 @@ const DetailsButton = styled.button`
   border-radius: 5px;
 `;
 
-function CourseCard({ title, instructor, available, newCourse }) {
+function CourseCard({ title, instructor, available, newCourse, onAdd }) {
   return (
     <div className={styles.card}>
       {newCourse && <span className="badge bg-warning text-dark mb-2">New</span>}
@@ -18,7 +18,7 @@ function CourseCard({ title, instructor, available, newCourse }) {
       <p className={available ? "text-success" : "text-danger"}>
         {available ? "Available" : "Not Available"}
       </p>
-      <DetailsButton>Details</DetailsButton>
+      {available && <DetailsButton onClick={onAdd}>Add to Cart</DetailsButton>}
     </div>
   );
 }
